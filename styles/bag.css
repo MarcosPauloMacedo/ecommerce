@@ -1,0 +1,44 @@
+.produto {
+width: 100%;
+}
+
+.button {
+    width: 100%;
+    align-self: center;
+}
+
+@media screen and (max-width: 576px) {
+    .ctn-produtos {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+    .produto {
+        width: 100%;
+    }
+
+    .button {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .produto {
+        width: 100px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .produto {
+        width: 100px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}

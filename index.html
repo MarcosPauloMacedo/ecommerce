@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="./styles/global.css" rel="stylesheet">
-    <title>Document</title>
+    <link href="./styles/home.css" rel="stylesheet">
+    <title>Store</title>
 </head>
-<body id="body">
+<body>
+  <header>
+    <nav id="navbar"></nav>
+    <div id="span" class="bg-black text-center py-1"></div>
+  </header>
+
+  <main id="main" class="container-fluid">
+    <div class="row justify-content-center">
+      <aside id="sidebar" class="d-lg-block d-none col-2 pt-3 accordion p-0 pe-3"></aside> 
+
+      <section 
+        id="showcase" 
+        class="col-lg-10 col-md-12 row row-cols-1 row-cols-sm-3 row-cols-md-4 pt-3">
+      </section>      
+    </div>
+  </main>
   <script src="./scripts/bootstrap/bootstrap.min.js"></script>
   <script src="./scripts/jquery/jquery.min.js"></script>
-  <script src="./scripts/global.js"></script>
+  <script src="./scripts/home.js"></script>
 </body>
 </html>
