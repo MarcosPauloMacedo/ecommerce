@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../styles/global.css" rel="stylesheet">
+    <link href="../styles/cart.css" rel="stylesheet">
+    <title>Carrinho</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar"></nav>
+        <div id="span" class="bg-black text-center py-1"></div>
+    </header>
+
+    <main>
+        <header>
+            <h3>Minha Sacola</h3>
+            <p>Confira os produtos que você adicionou à sua sacola</p>
+        </header>
+        <section class="row gap-3 align-items-start">
+            <div id="bag" class="ctn-produtos row col-12 col-lg-9"></div>
+            <div id="subtotal" class="col-lg-3 col-12 d-flex flex-column"></div>
+        </section>   
+    </main>
+
+    <script src="./scripts/bootstrap/bootstrap.min.js"></script>
+    <script src="./scripts/jquery/jquery.min.js"></script>
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/cart.js"></script>
+</body>
+</html>
